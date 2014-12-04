@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+        $("#head").load("head.html");
+        $("#navbar").load("navbar.html");
+        $("#footer").load("footer.html");
+
+    </script>
+
     <div id="head"></div>
+
 </head>
-
-
 <body>
 
 <div id="navbar"></div>
