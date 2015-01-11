@@ -1,0 +1,25 @@
+#google_analytics_id:
+
+# standard jekyll configuration
+
+permalink: /articles/:title
+pygments: true
+#exclude:
+#- bin
+#- config.rb
+#- Gemfile
+#- Gemfile.lock
+#- gems
+#- Procfile
+#- Rakefile
+#- README.md
+#- script
+#- vendor
+
+markdown: redcloth
+
+#github:
+#  username:
+
+#disqus:
+#  id:
