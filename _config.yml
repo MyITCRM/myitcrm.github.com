@@ -2,21 +2,21 @@
 
 # standard jekyll configuration
 
-permalink: /articles/:title
-pygments: true
-#exclude:
+#permalink: /articles/:title
+highlighter: pygments
+exclude:
 #- bin
 #- config.rb
-#- Gemfile
-#- Gemfile.lock
-#- gems
+- Gemfile
+- Gemfile.lock
+- gems
 #- Procfile
 #- Rakefile
 #- README.md
 #- script
 #- vendor
 
-markdown: redcloth
+markdown: redcarpet
 
 #github:
 #  username:
