@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: news
+title:  Demo
+author: Glen Vanderhel
+comments: True
 ---
-
-
-<img src="/assets/custom%20permissions.png" alt="..." class="img-thumbnail">
 
 MyIT CRM is designed for the needs of the Service and Repairs Business Industry.
 

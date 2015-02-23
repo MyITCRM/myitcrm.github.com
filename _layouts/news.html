@@ -1,0 +1,52 @@
+
+{% include top.html %}
+
+<body>
+{% include navbar.html %}
+<div class="container theme-showcase ">
+
+    <div class="col-sm-9">
+
+        {% if page.title %}
+        <div class="page-header">
+            <h1>{{ page.title }}</h1>
+        </div>
+        <p class="text-primary">
+            {% if page.author %} Written by <a href="{{ site.url}}/team/{{ page.author}}">{{ page.author }} </a> {% endif %} {% if page.date %} on the {{ page.date }}{% endif %}
+        {% endif %}
+            </p>
+
+        {{ content }}
+
+        {% if comments.true %} {% include comments.html %} {% endif %}
+
+    </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-cloud-download"></span> Downloads</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p>Version: <b>0.2.9.3</b></p>
+                        <p>Status: <b>BETA</b></p>
+                        <p>Next Release ETA: <b>TBC</b></p>
+                        <p>License: <b>GNU GPLv3</b></p>
+                        <a class="btn btn-info" href="http://sourceforge.net/projects/myitcrm/files/MyITCRM1-0.2.9.3.zip/download" target="_blank" title="Download your Free Copy Here">Download Here</a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span> Latest News</h3>
+                    </div>
+                    {% for post in site.posts %}
+                    <ul>
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    </ul>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div><!-- /.col-sm-4 -->
+
+        </div>
+
+{% include footer.html %}
