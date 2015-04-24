@@ -1,0 +1,32 @@
+---
+layout: news
+title: MyITCRM1 V0.2.9.3 Released!
+author: Glen Vanderhel
+categories: news
+comments: true
+menu.news: true
+---
+
+Well it's a new year and we hope all the myitcrm users have had a wonderful time during the festive season. This release of MyITCRM is mainly to fix a Security bug which was introduced in the last version upgrade process.
+
+ I sincerly apologise for this error which was made. If you want to know exactly what the issue was, you can simply PM me via the forum and I will explain.
+
+To upgrade a previous version to the latest version simply download and extract the zip file locally on your computer, then upload these extract files and folders to your myitcrm server location. Then navigate to the/upgrade path and select which version you want to upgrade your existing version too.
+
+<img src="/assets/upgrade.png">
+
+We also recommend you change your myitcrm database password as a minimum precaution and also your database username and login credentials for maximum protection. Then open up your conf.php file to edit and update with the new database credentials. Once this is done login into your myitcrm installtion and change you and your users password for maximum protection.
+
+####LIST OF FIXES ARE:
+Bug #252: client name not display on customer tab
+Bug #259: Currency code not used in Paypal invoices - Defaults to USD
+Bug #260: Upgrade Process and files review - sanitize data
+To view all the changes, please visit the change logs here.
+
+Full Version Download for Fresh Installation.::>Download<::.
+
+Patch Files for 0.2.9.2 >> 0.2.9.3 Upgrade Download - .::>Download<::.
+
+You can check out the latest release at our demo site.
+
+From the team at MyITCRM, we hope you enjoy!
