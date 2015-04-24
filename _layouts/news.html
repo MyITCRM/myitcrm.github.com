@@ -12,7 +12,7 @@
             <h1>{{ page.title }}</h1>
         </div>
         <p class="text-primary">
-            {% if page.author %} Written by <a href="{{ site.url}}/team/{{ page.author}}">{{ page.author }} </a> {% endif %} {% if page.date %} on the {% assign d = page.date | date: "%-d"  %}
+            <small><em></i></small>{% if page.author %} Written by <a href="{{ site.url}}/team/{{ page.author}}">{{ page.author }} </a> {% endif %} {% if page.date %} on the {% assign d = page.date | date: "%-d"  %}
 {{ page.date | date: "%B" }} 
 {% case d %}
   {% when '1' or '21' or '31' %}{{ d }}st
@@ -21,7 +21,7 @@
   {% else %}{{ d }}th
   {% endcase %}, 
 {{ page.date | date: "%Y" }}{% endif %}
-        {% endif %}
+        {% endif %} </em></small>
             </p>
 
         {{ content }}
