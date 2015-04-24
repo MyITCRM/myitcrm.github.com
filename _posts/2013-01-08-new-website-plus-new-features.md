@@ -3,7 +3,6 @@ layout: news
 title: NEW WEBSITE PLUS NEW FEATURES
 author: Glen Vanderhel
 categories: news
-comments: true
 menu.news: true
 ---
 
@@ -18,23 +17,23 @@ One of the downsides has been the lack of good quality documentation, well this 
 
 To join the Docs team, please contact WNODDIN (Wiki Team Leader) or me and either of us will add you to the team.
 
-### DISQUS COMMENTING SYSTEM
+#### DISQUS COMMENTING SYSTEM
 
 All our articles will now have the ability of adding your comments by the powerful Disqus Commenting system. Check out more on what Disqus can do on there website @ http://disqus.com/
 
-disqus
+<img src="/assets/disqus.png" />
 
-### FULLY INTEGRATED FORUM
+#### FULLY INTEGRATED FORUM
 
 The Forum is now fully integrated into the website. This helps make the site feel more connected and allows user syncing between software systems.
 
-forum 90068
+<img src="/assets/forum.png" />
 
 There are also many other features and additions that you will spot along the way and we hope you enjoy them.
 
 I would also like to thank everyone who have donated to MyITCRM. Your donations are greatly appreciated.
 
-### WHEN WILL THE NEXT RELEASE BE?
+#### WHEN WILL THE NEXT RELEASE BE?
 
 There is no set date for the next release. There is some critical features we need to add to make this one of the final releases that will put it into the Stable release category and move MyITCRM 1 out of Beta phase.
 
