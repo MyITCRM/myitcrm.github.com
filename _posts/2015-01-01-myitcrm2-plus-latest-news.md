@@ -2,7 +2,7 @@
 layout: news
 title: MYITCRM2 PLUS LATEST NEWS
 author: Glen Vanderhel
-categories: news
+categories: news_comments
 comments: True
 ---
 
