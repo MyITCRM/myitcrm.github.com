@@ -2,7 +2,7 @@
 layout: profile
 title: Glen Vanderhel
 author: Glen Vanderhel
-categories: team
+categories: [team]
 comments: True
 ---
 
