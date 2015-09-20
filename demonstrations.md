@@ -1,28 +1,35 @@
----
-layout: news
+﻿---
+layout: news_comments
 title:  Demo
 author: Glen Vanderhel
-comments: True
 ---
 
-MyIT CRM is designed for the needs of the Service and Repairs Business Industry.
+Test drive MyIT CRM 1 now to find out if this software suits your business needs. Were sure it will and if not, we will do all we can to help you out.
 
+The PHP Demo version is the latest public release code.
 
-MyITCRM provides your business the tools to maintain and track customer information, work orders, payments, invoicing, employees and jobs.
+Link: http://demo.myitcrm.com.
 
-Whilst MyIT CRM was originally designed for the Computer Repairs Industry, it can easily be used for any type of repairs related business
+Login with :
 
-* Electrical Device Repairs and Servicing;
-* Small/Large Plant Maintenance and  Servicing;
-* Motorcycles, Cars, Lawn Equipment Servicing and Repairs.
+Username: admin
 
-Some of MyIT CRM’s Features:
+Password: password
 
-* Customer details including Google maps directions ;
-* Work Order (Jobs/Tasks) Management ;
-* Work Order scheduling via calendar per employee ;
-* Billing and Invoicing ;
-* Accept payments via Credit Cards via either Paymate, Paypal , Cheques, Cash or Gift Certificates ;
-and much more!
+ 
 
-So now give the demo a try or download your free copy and start optimising your business with this easy to use and feature packed CRM Program.
+**Database resets daily.**
+
+ 
+
+If your interested in the latest re-write of myitcrm, you can check out the demo below.
+
+Link: http://ruby2.myitcrm.com
+
+Username: **admin**
+
+Password: **password**
+
+Also, the new ruby demo is hosted by a great low cost but powerful VPS provider, Digitalocean.
+
+Proudly Hosted Badge Blue
