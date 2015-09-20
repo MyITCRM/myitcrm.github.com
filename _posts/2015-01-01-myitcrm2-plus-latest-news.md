@@ -1,12 +1,9 @@
 ---
-layout: news
+layout: news_comments
 title: MYITCRM2 PLUS LATEST NEWS
 author: Glen Vanderhel
-categories: news_comments
-comments: True
+categories: [news]
 ---
-
-
 
 Well it has been a long time since we have release out last version of the software. This is mainly due to time.
 
