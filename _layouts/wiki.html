@@ -13,6 +13,7 @@
         </div>
         {% endif %}
         <p class="text-right">
+
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
             <small>
             <em>
@@ -29,17 +30,39 @@
               {% endcase %},
             {{ page.date | date: "%Y" }}
             {% endif %}
+{% if page.updated_by %}
+             and Last updated by {{ page.updated_by }}
+            {% endif %}
+            {% if page.updated_at %} on the {% assign d = page.updated_at | date: "%-d"  %}
+            {{ page.updated_at | date: "%B" }} 
+            {% case d %}
+              {% when '1' or '21' or '31' %}{{ d }}st
+              {% when '2' or '22' %}{{ d }}nd
+              {% when '3' or '23' %}{{ d }}rd
+              {% else %}{{ d }}th
+              {% endcase %},
+            {{ page.updated_at | date: "%Y" }}
+            {% endif %}
+            </em>
+            </small>
+		&nbsp;
+            {% if page.tags %}
+		<span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+            	<small>
+            	<em>
+             	{{ page.tags }}
+            {% endif %}
+            
             </em>
             </small>
             </p>
+
         {{ content }}
 
 
     </div>
 	{% include right_sidebar_header.html %}
-		{% include module_download.html %}
-		{% include module_latest_news.html %}
-		{% include module_twitter.html %}
+		{% include module_wiki_toc.html %}
 		{% include module_donations.html %}
 	{% include right_sidebar_footer.html %}
 

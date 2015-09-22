@@ -2,9 +2,13 @@
 layout: news_comments
 title:  Contribute
 author: Glen Vanderhel
+layout: wiki
+updated_by: 
+updated_at: 
+tags: 
 ---
 
-As with many Free Open Source programs, the support of the community is what makes any open source program better.
+Ass with many Free Open Source programs, the support of the community is what makes any open source program better.
 
 MyITCRM is no different. There are many ways you can contribute to this program.
 

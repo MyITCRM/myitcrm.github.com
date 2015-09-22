@@ -2,7 +2,15 @@
 
 # standard jekyll configuration
 
-permalink: /:categories/:title
+collections:
+  wiki:
+    output: true
+    # permalink: /wiki/:categories/:title
+  posts:
+    output: true
+    permalink: /:categories/:title
+
+permalink: /:title
 highlighter: pygments
 author: Glen Vanderhel
 exclude:

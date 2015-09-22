@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-list"></span> Table of Contents</h3>
+                   </div>
+<div class="panel-body">
+
+{% for wiki in site.wiki %}
+<h4 class="text-uppercase">{{ wiki.tags }}</h4>
+  <ul>
+  	<li><a href="{{ wiki.url }}">{{ wiki.title }}</a></li>
+  </ul>
+{% endfor %}
+
+{% for wiki in site.wiki %}
+#{{ wiki.tags }}
+<ul>
+  {% for wiki in site.wiki %}
+    {% if wiki.tag == true %}
+      {% for tags in wiki.tags %}
+          <li><a href="{{ wiki.url }}">{{ wiki.title }}</a></li>
+      {% endfor %}  <!-- page-category -->
+    {% endif %}   <!-- resource-p -->
+  {% endfor %}  <!-- page -->
+</ul>
+{% endfor %}  <!-- cat -->
+</div>
+</div>
