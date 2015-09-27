@@ -20,7 +20,7 @@
              Written by <a href="{{ site.url}}/team/{{ page.author}}">{{ page.author }} </a>
             {% endif %}
             {% if page.date %} on the {% assign d = page.date | date: "%-d"  %}
-            {{ page.date | date: "%B" }} 
+            {{ page.date | date: "%B" }}
             {% case d %}
               {% when '1' or '21' or '31' %}{{ d }}st
               {% when '2' or '22' %}{{ d }}nd
