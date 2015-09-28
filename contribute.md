@@ -1,11 +1,10 @@
 ---
-layout: news_comments
 title:  Contribute
 author: Glen Vanderhel
-layout: wiki
+layout: default
 updated_by: 
 updated_at: 
-tags: 
+tags:
 ---
 
 Ass with many Free Open Source programs, the support of the community is what makes any open source program better.

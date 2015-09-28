@@ -2,8 +2,8 @@
 layout: default
 ---
 
-
-<img src="/assets/custom%20permissions.png" alt="..." class="img-thumbnail">
+<img src="/assets/myitcrm_logo2.jpeg" alt="MyITCRM Logo" style="">
+<hr>
 
 MyIT CRM is designed for the needs of the Service and Repairs Business Industry.
 
@@ -26,3 +26,6 @@ Some of MyIT CRM’s Features:
 and much more!
 
 So now give the demo a try or download your free copy and start optimising your business with this easy to use and feature packed CRM Program.
+
+<hr>
+<!-- /END THE FEATURETTES -->

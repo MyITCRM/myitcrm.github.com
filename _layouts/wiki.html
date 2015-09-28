@@ -14,7 +14,7 @@
         {% endif %}
         <p class="text-right">
 
-            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
             <small>
             <em>
             {% if page.author %}
@@ -59,7 +59,14 @@
 
         {{ content }}
 
+<p class="text-right">
 
+            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+            <small>
+            <em>
+            Edit me <a href="https://github.com/MyITCRM/myitcrm.github.com/edit/master/{{ page.path}}">here. </a>
+            </em>
+            </small>
     </div>
 	{% include right_sidebar_header.html %}
 		{% include module_wiki_toc.html %}

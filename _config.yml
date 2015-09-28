@@ -13,6 +13,7 @@ collections:
 permalink: /:title
 highlighter: pygments
 author: Glen Vanderhel
+
 exclude:
 #- bin
 #- config.rb
@@ -28,6 +29,7 @@ exclude:
 markdown: redcarpet
 
 # Includes an icon in the footer for each user name you enter
+
 footer-links:
   github: myitcrm
   twitter: myitcrm
