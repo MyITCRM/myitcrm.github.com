@@ -28,4 +28,3 @@ and much more!
 So now give the demo a try or download your free copy and start optimising your business with this easy to use and feature packed CRM Program.
 
 <hr>
-<!-- /END THE FEATURETTES -->
