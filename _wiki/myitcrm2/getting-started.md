@@ -2,8 +2,8 @@
 layout: wiki
 title:  Getting Started
 author: Glen Vanderhel
-updated_by: Example
-updated_at: 2012-01-01
+updated_by: Glen Vanderhel
+updated_at: 2015-11-03
 tags: [myitcrm2]
 ---
 
