@@ -118,7 +118,7 @@ OR
 sudo apt-get -y install postgresql libpq-dev
 </pre>
 
-h2. Node.js for the Rails asset pipeline
+### Node.js for the Rails asset pipeline
 
 One of the other things you’ll want is Node.js. This will help us do the compiling of assets on deployments. It’s a pretty quick installation to get the latest version:
 
